@@ -21,12 +21,7 @@ export const Login = (props) => {
         <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register Here.</button>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"> </script>  
-         <script>
-            
-            $(document).ready(function(){
-                $(".background-image").ripples('show');
-            });
-        </script>
+         
         </div>
     )
 }
